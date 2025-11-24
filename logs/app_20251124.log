@@ -1,0 +1,220 @@
+2025-11-24 00:01:17 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 00:01:19 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 00:01:19 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:01:22 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:01:24 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 00:01:24 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 00:01:24 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 00:01:24 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 00:01:24 - root - INFO - [STATUS] Status changed to: failed - Error code: 403 - {'error': {'message': 'Project `proj_6V8Upz5UomWBcEefVcs4RgJg` does not have access to model `gpt-4`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-11-24 00:01:24 - root - ERROR - [ERROR] Error in research workflow: Error code: 403 - {'error': {'message': 'Project `proj_6V8Upz5UomWBcEefVcs4RgJg` does not have access to model `gpt-4`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-11-24 00:07:34 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 00:07:40 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 00:07:40 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:07:44 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:07:45 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 00:07:45 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 00:07:45 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 00:07:45 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 00:07:47 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 00:07:47 - root - INFO - [RAG] [RAG] Performing similarity search (k=5)
+2025-11-24 00:07:50 - root - INFO - [SUCCESS] [RAG] Found 4 relevant documents
+2025-11-24 00:07:50 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 4 documents
+2025-11-24 00:07:52 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 00:07:52 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 00:07:52 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 00:07:52 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 00:07:52 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 00:07:52 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 00:07:52 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 00:07:52 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_000734.md
+2025-11-24 00:07:52 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_000734.md
+2025-11-24 00:07:52 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_000734.json
+2025-11-24 00:07:52 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_000734.json
+2025-11-24 00:07:52 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 00:07:52 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 00:09:32 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 00:09:34 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 00:09:34 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:09:36 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:09:38 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 00:12:58 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 00:13:04 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 00:13:04 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:13:07 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:13:10 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 00:17:01 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 00:17:07 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 00:17:07 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:17:12 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:17:14 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 00:54:59 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 00:55:13 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 00:55:13 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:55:16 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:55:19 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 04:18:19 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 04:18:23 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 04:18:23 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 04:18:26 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 04:18:28 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 04:18:28 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 04:18:28 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 04:18:28 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 04:18:31 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 04:18:31 - root - INFO - [RAG] [RAG] Performing similarity search (k=3)
+2025-11-24 04:18:33 - root - INFO - [SUCCESS] [RAG] Found 3 relevant documents
+2025-11-24 04:18:33 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 3 documents
+2025-11-24 04:18:33 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 04:18:34 - root - ERROR - [ERROR] [Tool: Web Research] Error: Client.__init__() got an unexpected keyword argument 'proxy'
+2025-11-24 04:18:39 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 04:18:39 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 04:18:39 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 04:18:39 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 04:18:39 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 04:18:39 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 04:18:39 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 04:18:39 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_041819.md
+2025-11-24 04:18:39 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_041819.md
+2025-11-24 04:18:39 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_041819.json
+2025-11-24 04:18:39 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_041819.json
+2025-11-24 04:18:39 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 04:18:39 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 04:20:07 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 04:20:11 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 04:20:11 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 04:20:13 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 04:20:15 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 04:20:15 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 04:20:15 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 04:20:15 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 04:20:16 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 04:20:17 - root - ERROR - [ERROR] [Tool: Web Research] Error: Client.__init__() got an unexpected keyword argument 'proxy'
+2025-11-24 04:20:18 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 04:20:18 - root - INFO - [RAG] [RAG] Performing similarity search (k=5)
+2025-11-24 04:20:19 - root - INFO - [SUCCESS] [RAG] Found 4 relevant documents
+2025-11-24 04:20:19 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 4 documents
+2025-11-24 04:20:22 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 04:20:22 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 04:20:22 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 04:20:22 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 04:20:22 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 04:20:22 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 04:20:22 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 04:20:22 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_042007.md
+2025-11-24 04:20:22 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_042007.md
+2025-11-24 04:20:22 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_042007.json
+2025-11-24 04:20:22 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_042007.json
+2025-11-24 04:20:22 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 04:20:22 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 04:28:59 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 04:29:05 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 04:29:05 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 04:29:07 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 04:29:10 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 04:29:10 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 04:29:10 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 04:29:10 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 04:29:12 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 04:29:14 - root - INFO - [SUCCESS] [Tool: Web Research] Found 3 web sources
+2025-11-24 04:29:15 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 04:29:15 - root - INFO - [RAG] [RAG] Performing similarity search (k=2)
+2025-11-24 04:29:17 - root - INFO - [SUCCESS] [RAG] Found 2 relevant documents
+2025-11-24 04:29:17 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 2 documents
+2025-11-24 04:29:20 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 04:29:20 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 04:29:20 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 04:29:20 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 04:29:20 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 04:29:20 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 04:29:20 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 04:29:20 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_042859.md
+2025-11-24 04:29:20 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_042859.md
+2025-11-24 04:29:20 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_042859.json
+2025-11-24 04:29:20 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_042859.json
+2025-11-24 04:29:20 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 04:29:20 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 04:39:06 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 04:39:08 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 04:39:08 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 04:39:10 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 04:39:12 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 04:39:12 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 04:39:12 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 04:39:12 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 04:39:13 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 04:39:15 - root - INFO - [SUCCESS] [Tool: Web Research] Found 3 web sources
+2025-11-24 04:39:17 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 04:39:17 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 04:39:17 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 04:39:17 - root - INFO - [MCP] [MCP Compliance] Found 1 phone instances
+2025-11-24 04:39:17 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 1 PII instances redacted
+2025-11-24 04:39:17 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 04:39:17 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 04:39:17 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 04:39:17 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_043906.md
+2025-11-24 04:39:17 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_043906.md
+2025-11-24 04:39:17 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_043906.json
+2025-11-24 04:39:17 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_043906.json
+2025-11-24 04:39:17 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 04:39:17 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 04:58:35 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 04:58:38 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 04:58:38 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 04:58:40 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 04:58:41 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 05:08:10 - root - INFO - [INFO] === Document Ingestion Started: ./documents\International Journal of Infromatioan Management Data Insights - Volume 1, Issue 1, April 2021, 100002.pdf ===
+2025-11-24 05:08:10 - root - INFO - [RAG] [RAG] Loading PDF: ./documents\International Journal of Infromatioan Management Data Insights - Volume 1, Issue 1, April 2021, 100002.pdf
+2025-11-24 05:09:19 - root - INFO - [RAG] [RAG] Loaded 8 pages from PDF
+2025-11-24 05:09:19 - root - INFO - [RAG] [RAG] Splitting 8 documents into chunks
+2025-11-24 05:09:19 - root - INFO - [RAG] [RAG] Created 33 chunks
+2025-11-24 05:09:19 - root - INFO - [RAG] [RAG] Cleaning documents
+2025-11-24 05:09:19 - root - INFO - [SUCCESS] [RAG] Processed ./documents\International Journal of Infromatioan Management Data Insights - Volume 1, Issue 1, April 2021, 100002.pdf: 33 chunks ready
+2025-11-24 05:09:19 - root - INFO - [RAG] [RAG] Adding 33 documents to vector store
+2025-11-24 05:09:25 - root - INFO - [SUCCESS] [RAG] Successfully added 33 documents
+2025-11-24 05:09:25 - root - INFO - [SUCCESS] === Document Ingestion Completed: 33 chunks ===
+2025-11-24 05:10:21 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 05:10:21 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 05:10:21 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 05:10:23 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 05:10:23 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 05:10:23 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 05:10:23 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 05:10:23 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 05:10:23 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 05:10:23 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 05:10:23 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_045835.md
+2025-11-24 05:10:23 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_045835.md
+2025-11-24 05:10:23 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_045835.json
+2025-11-24 05:10:23 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_045835.json
+2025-11-24 05:10:23 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 05:10:23 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 05:13:53 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 05:13:57 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 05:13:57 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 05:14:00 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 05:14:03 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 05:14:03 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 05:14:03 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 05:14:03 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 05:14:04 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 05:14:04 - root - INFO - [RAG] [RAG] Performing similarity search (k=5)
+2025-11-24 05:14:06 - root - INFO - [SUCCESS] [RAG] Found 5 relevant documents
+2025-11-24 05:14:06 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 5 documents
+2025-11-24 05:14:06 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 05:14:08 - root - INFO - [SUCCESS] [Tool: Web Research] Found 3 web sources
+2025-11-24 05:14:09 - root - INFO - [TOOL] [Tool: Citation Verification] Verifying sources
+2025-11-24 05:14:09 - root - INFO - [SUCCESS] [Tool: Citation Verification] Verified 1 citations
+2025-11-24 05:14:11 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 05:14:11 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 05:14:11 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 05:14:11 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 05:14:11 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 05:14:11 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 05:14:11 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 05:14:11 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_051353.md
+2025-11-24 05:14:11 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_051353.md
+2025-11-24 05:14:11 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_051353.json
+2025-11-24 05:14:11 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_051353.json
+2025-11-24 05:14:11 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 05:14:11 - root - INFO - [SUCCESS] === Research Workflow Completed ===

@@ -1,0 +1,48 @@
+2025-11-23 22:51:01 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 22:59:38 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:18:49 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:18:49 - root - ERROR - [ERROR] [RAG] Error initializing embeddings: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-23 23:23:34 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:23:34 - root - ERROR - [ERROR] [RAG] Error initializing embeddings: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-23 23:45:07 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:45:12 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-23 23:45:12 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-23 23:45:19 - root - ERROR - [ERROR] [RAG] Error initializing vector store: Failed to create vector extension: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "langchain-pgvector" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-23 23:48:13 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:48:17 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-23 23:48:17 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-23 23:48:20 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-23 23:48:22 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-23 23:48:23 - root - INFO - [INFO] === Document Ingestion Started: ./ipl-winners-list-from-2008-to-2019-275.pdf ===
+2025-11-23 23:48:23 - root - INFO - [RAG] [RAG] Loading PDF: ./ipl-winners-list-from-2008-to-2019-275.pdf
+2025-11-23 23:48:25 - root - ERROR - [ERROR] [RAG] Error loading ./ipl-winners-list-from-2008-to-2019-275.pdf: `rapidocr-onnxruntime` package not found, please install it with `pip install rapidocr-onnxruntime`
+2025-11-23 23:48:25 - root - WARNING - [WARNING] No chunks created from ./ipl-winners-list-from-2008-to-2019-275.pdf
+2025-11-23 23:55:58 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:56:01 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-23 23:56:01 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-23 23:56:04 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-23 23:56:06 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-23 23:56:06 - root - INFO - [INFO] === Document Ingestion Started: ./ipl-winners-list-from-2008-to-2019-275.pdf ===
+2025-11-23 23:56:06 - root - INFO - [RAG] [RAG] Loading PDF: ./ipl-winners-list-from-2008-to-2019-275.pdf
+2025-11-23 23:56:38 - root - INFO - [RAG] [RAG] Loaded 4 pages from PDF
+2025-11-23 23:56:38 - root - INFO - [RAG] [RAG] Splitting 4 documents into chunks
+2025-11-23 23:56:38 - root - INFO - [RAG] [RAG] Created 4 chunks
+2025-11-23 23:56:38 - root - INFO - [RAG] [RAG] Cleaning documents
+2025-11-23 23:56:38 - root - INFO - [SUCCESS] [RAG] Processed ./ipl-winners-list-from-2008-to-2019-275.pdf: 4 chunks ready
+2025-11-23 23:56:38 - root - INFO - [RAG] [RAG] Adding 4 documents to vector store
+2025-11-23 23:56:40 - root - INFO - [SUCCESS] [RAG] Successfully added 4 documents
+2025-11-23 23:56:40 - root - INFO - [SUCCESS] === Document Ingestion Completed: 4 chunks ===
+2025-11-23 23:59:50 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-23 23:59:53 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-23 23:59:53 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 00:00:00 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 00:00:01 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 00:00:01 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 00:00:01 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 00:00:01 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 00:00:04 - root - INFO - [STATUS] Status changed to: failed - Error code: 403 - {'error': {'message': 'Project `proj_6V8Upz5UomWBcEefVcs4RgJg` does not have access to model `gpt-4`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-11-24 00:00:04 - root - ERROR - [ERROR] Error in research workflow: Error code: 403 - {'error': {'message': 'Project `proj_6V8Upz5UomWBcEefVcs4RgJg` does not have access to model `gpt-4`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
