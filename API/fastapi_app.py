@@ -8,7 +8,7 @@ from typing import List, Optional
 import asyncio
 import os
 import shutil
-
+from API.jobs import router as jobs_router
 from Agent.OrchestrationAgent import ResearchAgent
 from Config.Settings import settings
 
@@ -18,6 +18,7 @@ app = FastAPI(
     description="RAG-based research agent with compliance and auditing",
     version="1.0.0"
 )
+app.include_router(jobs_router)
 
 # CORS middleware
 app.add_middleware(
