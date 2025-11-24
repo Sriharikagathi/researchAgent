@@ -384,3 +384,102 @@
 2025-11-24 06:36:00 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
 2025-11-24 06:36:00 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
 2025-11-24 06:36:00 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 06:36:00 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_063537.md
+2025-11-24 06:36:00 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_063537.md
+2025-11-24 06:36:00 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_063537.md
+2025-11-24 06:36:00 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_063537.md
+2025-11-24 06:36:00 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_063537.json
+2025-11-24 06:36:00 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_063537.json
+2025-11-24 06:36:00 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_063537.json
+2025-11-24 06:36:00 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_063537.json
+2025-11-24 06:36:00 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 06:36:00 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 06:36:00 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 06:36:00 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 06:41:48 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 06:41:48 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 06:41:48 - root - INFO - [INFO] === Research Agent Initializing ===
+2025-11-24 06:41:50 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 06:41:50 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 06:41:50 - root - INFO - [RAG] [RAG] Initialized embeddings model: text-embedding-3-large
+2025-11-24 06:41:50 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 06:41:50 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 06:41:50 - root - INFO - [RAG] [RAG] Initializing PGVector store: research_documents
+2025-11-24 06:41:52 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 06:41:52 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 06:41:52 - root - INFO - [SUCCESS] [RAG] Successfully connected to PGVector store
+2025-11-24 06:41:54 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 06:41:54 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 06:41:54 - root - INFO - [SUCCESS] === Research Agent Initialized Successfully ===
+2025-11-24 06:42:08 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 06:42:08 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 06:42:08 - root - INFO - [STATUS] Status changed to: running - Research started
+2025-11-24 06:42:08 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 06:42:08 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 06:42:08 - root - INFO - [INFO] === Research Workflow Started ===
+2025-11-24 06:42:08 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 06:42:08 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 06:42:08 - root - INFO - [AGENT] [Agent] Executing research agent
+2025-11-24 06:42:10 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 06:42:10 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 06:42:10 - root - INFO - [TOOL] [Tool: Document Retrieval] Starting document retrieval
+2025-11-24 06:42:10 - root - INFO - [RAG] [RAG] Performing similarity search (k=5)
+2025-11-24 06:42:10 - root - INFO - [RAG] [RAG] Performing similarity search (k=5)
+2025-11-24 06:42:10 - root - INFO - [RAG] [RAG] Performing similarity search (k=5)
+2025-11-24 06:42:11 - root - INFO - [SUCCESS] [RAG] Found 5 relevant documents
+2025-11-24 06:42:11 - root - INFO - [SUCCESS] [RAG] Found 5 relevant documents
+2025-11-24 06:42:11 - root - INFO - [SUCCESS] [RAG] Found 5 relevant documents
+2025-11-24 06:42:11 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 5 documents
+2025-11-24 06:42:11 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 5 documents
+2025-11-24 06:42:11 - root - INFO - [SUCCESS] [Tool: Document Retrieval] Retrieved 5 documents
+2025-11-24 06:42:11 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 06:42:11 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 06:42:11 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 06:42:12 - root - INFO - [SUCCESS] [Tool: Web Research] Found 3 web sources
+2025-11-24 06:42:12 - root - INFO - [SUCCESS] [Tool: Web Research] Found 3 web sources
+2025-11-24 06:42:12 - root - INFO - [SUCCESS] [Tool: Web Research] Found 3 web sources
+2025-11-24 06:42:14 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 06:42:14 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 06:42:14 - root - INFO - [TOOL] [Tool: Web Research] Starting web search
+2025-11-24 06:42:16 - root - INFO - [SUCCESS] [Tool: Web Research] Found 1 web sources
+2025-11-24 06:42:16 - root - INFO - [SUCCESS] [Tool: Web Research] Found 1 web sources
+2025-11-24 06:42:16 - root - INFO - [SUCCESS] [Tool: Web Research] Found 1 web sources
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Generating final research report
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Applying compliance checks
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Compliance] Starting PII scan and redaction
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Compliance] Completed: 0 PII instances redacted
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 06:42:18 - root - INFO - [AGENT] [Agent] Formatting final report
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Formatting] Formatting content as markdown
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Formatting] Successfully formatted as markdown
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_064148.md
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_064148.md
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Export] Exporting to research_report_20251124_064148.md
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_064148.md
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_064148.md
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\research_report_20251124_064148.md
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_064148.json
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_064148.json
+2025-11-24 06:42:18 - root - INFO - [MCP] [MCP Export] Exporting to audit_report_20251124_064148.json
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_064148.json
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_064148.json
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] [MCP Export] Successfully exported to ./exports\audit_report_20251124_064148.json
+2025-11-24 06:42:18 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 06:42:18 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 06:42:18 - root - INFO - [STATUS] Status changed to: completed - Research completed successfully
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] === Research Workflow Completed ===
+2025-11-24 06:42:18 - root - INFO - [SUCCESS] === Research Workflow Completed ===
